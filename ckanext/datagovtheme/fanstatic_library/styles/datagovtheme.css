@@ -188,16 +188,16 @@ a {
 .ie8 .masthead .container .logo a {
     display: block;
     float: left;
-    height: 71px;
-    background-image: url("../images/ic-data-infracritical-vsml2.png");
-    width: 208px;
+    height: 93px;
+    background-image: url("../images/ic-data-infracritical-vsml.png");
+    width: 269px;
 }
 .masthead .container .logo a {
     display: block;
     float: left;
-    height: 71px;
-    background: url("../images/ic-data-infracritical-vsml2.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
-    width: 208px;
+    height: 93px;
+    background: url("../images/ic-data-infracritical-vsml.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
+    width: 269px;
 }
 .masthead .container .logo a span {
     display: none;
@@ -1182,10 +1182,10 @@ footer.site-footer {
     text-indent:-9999em;
 }
 .svg .navbar-brand, .svg .logo-brand {
-    background: url("../images/ic-data-infracritical-vsml3.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
+    background: url("../images/ic-data-infracritical-vsml4.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
 }
 a.logo-brand {
-    background: url("../images/ic-data-infracritical-vsml3.png") no-repeat scroll left center;
+    background: url("../images/ic-data-infracritical-vsml4.png") no-repeat scroll left center;
     margin-left: 15px;
     height: 53px;
     overflow: hidden;
