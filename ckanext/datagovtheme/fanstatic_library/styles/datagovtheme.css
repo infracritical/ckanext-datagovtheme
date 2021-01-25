@@ -189,14 +189,14 @@ a {
     display: block;
     float: left;
     height: 93px;
-    background-image: url("../images/ic-data-infracritical.png");
+    background-image: url("../images/ic-data-infracritical-header.png");
     width: 269px;
 }
 .masthead .container .logo a {
     display: block;
     float: left;
     height: 93px;
-    background: url("../images/ic-data-infracritical.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
+    background: url("../images/ic-data-infracritical-header.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
     width: 269px;
 }
 .masthead .container .logo a span {
@@ -763,16 +763,16 @@ a {
     background-color: #719f83;
 }
 /*
-   IC-DATASET: added: 24-jan-2021;
-   description: organization now includes project types
+    IC-DATASET: added: 24-jan-2021;
+    description: organization now includes project types
 */
 .organization-type[data-organization-type="project"] {
     background-color: #yellow;
     color: black;
 }
 /*
-   IC-DATASET: adde: 24-jan-2021
-   description: added dataset types: accident and attack
+    IC-DATASET: adde: 24-jan-2021
+    description: added dataset types: accident and attack
 */
 .dataset-type-wrap {
     position:absolute;
@@ -804,13 +804,15 @@ a {
     color: white;
     background-color: #666;
 }
-.dataset-type[data-organization-type="accident"] {
+.dataset-type[data-dataset-type="accident"] {
     background-color: #71999f;
 }
-.dataset-type[data-organization-type="attack"] {
+.dataset-type[data-dataset-type="attack"] {
     background-color: red;
 }
-
+/*
+    END IC-DATASET
+*/
 #dataset-search {
     margin-bottom: 0;
 }
@@ -951,6 +953,15 @@ a {
 .ie8 .organization-type[data-organization-type="commercial"] {
     background-image: url("../images/organization-type/commercial.png");
 }
+.ie7 .dataset-type[data-dataset-type="attack"],
+.ie8 .dataset-type[data-dataset-type="attack"] {
+    background-image: url("../images/dataset-type/attack.png");
+}
+.ie7 .dataset-type[data-dataset-type="accident"],
+.ie8 .dataset-type[data-dataset-type="accident"] {
+    background-image: url("../images/dataset-type/accident.png");
+}
+
 .select2-default {
     color: #595959 !important;
 }
@@ -1231,10 +1242,10 @@ footer.site-footer {
     text-indent:-9999em;
 }
 .svg .navbar-brand, .svg .logo-brand {
-    background: url("../images/ic-data-infracritical.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
+    background: url("../images/ic-data-infracritical-footer.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
 }
 a.logo-brand {
-    background: url("../images/ic-data-infracritical.png") no-repeat scroll left center;
+    background: url("../images/ic-data-infracritical-footer.png") no-repeat scroll left center;
     margin-left: 15px;
     height: 42px;
     overflow: hidden;
