@@ -1242,10 +1242,10 @@ footer.site-footer {
     text-indent:-9999em;
 }
 .svg .navbar-brand, .svg .logo-brand {
-    background: url("../images/ic-data-infracritical-footer.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
+    background: url("../images/ic-data-infracritical-footer-sml.png") no-repeat scroll 0 0 / contain  rgba(0, 0, 0, 0);
 }
 a.logo-brand {
-    background: url("../images/ic-data-infracritical-footer.png") no-repeat scroll left center;
+    background: url("../images/ic-data-infracritical-footer-sml.png") no-repeat scroll left center;
     margin-left: 15px;
     height: 42px;
     overflow: hidden;
