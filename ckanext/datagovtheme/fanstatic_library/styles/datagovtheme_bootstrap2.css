@@ -111,7 +111,8 @@ a {
     clear: both;
 }
 .pre-header {
-    background: #0a3163 url("http://www.data.gov/sites/all/themes/datagov/images/preheader-bg.jpg") repeat-x center top;
+/*  background: #0a3163 url("http://www.data.gov/sites/all/themes/datagov/images/preheader-bg.jpg") repeat-x center top; */
+    background: #0a3163 url("../images/preheader-bg.jpg") repeat-x center top;
     color: white;
     font-style: italic;
     font-size: 11px;
@@ -136,7 +137,7 @@ a {
 .masthead .container .top {
     *zoom: 1;
     position: relative;
-    /*  background: url("http://www.data.gov/sites/all/themes/datagov/images/header-start-bg.jpg");
+/*  background: url("http://www.data.gov/sites/all/themes/datagov/images/header-start-bg.jpg");
       -webkit-border-radius: 4px 4px 0 0;
       -moz-border-radius: 4px 4px 0 0;
       -o-border-radius: 4px 4px 0 0;
