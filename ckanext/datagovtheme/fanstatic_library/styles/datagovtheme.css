@@ -141,7 +141,7 @@ a {
     clear: both;
 }
 .pre-header {
-    background: #0a3163 url("http://www.data.gov/sites/all/themes/datagov/images/preheader-bg.jpg") repeat-x center top;
+    background: #0a3163 url("../images/preheader-bg.jpg") repeat-x center top;
     color: white;
     font-style: italic;
     font-size: 11px;
@@ -286,7 +286,7 @@ a {
     font-size: 11px;
     width: 184px;
     padding-left: 11px;
-    background: url("http://www.data.gov/sites/all/themes/datagov/images/search-box-new.jpg");
+    background: url("../images/search-box-new.jpg");
 }
 .masthead .container .site-wide-search button {
     font: 0/0 a;
@@ -294,7 +294,7 @@ a {
     text-shadow: none;
     background-color: transparent;
     border: 0;
-    background: url("http://www.data.gov/sites/all/themes/datagov/images/search_new.png");
+    background: url("../images/search_new.png");
     background-repeat:no-repeat;
     width: 25px;
     height: 28px;
@@ -807,9 +807,13 @@ a {
 .dataset-type[data-dataset-type="accident"] {
     background-color: #71999f;
 }
-.dataset-type[data-dataset-type="attack"] {
-    background-color: red;
+.dataset-type[data-dataset-type="nonaccident"] {
+    background-color: #71999f;
 }
+.dataset-type[data-dataset-type="attack"] {
+    background-color: #71999f;
+}
+
 /*
     END IC-DATASET
 */
@@ -953,6 +957,23 @@ a {
 .ie8 .organization-type[data-organization-type="commercial"] {
     background-image: url("../images/organization-type/commercial.png");
 }
+.ie7 .dataset-type,
+.ie8 .dataset-type {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    width: 85px;
+    height: 85px;
+    top: 0;
+    right: 0;
+    background-color: transparent !important;
+}
+.ie7 .dataset-type span,
+.ie8 .dataset-type span {
+    display: none;
+}
 .ie7 .dataset-type[data-dataset-type="attack"],
 .ie8 .dataset-type[data-dataset-type="attack"] {
     background-image: url("../images/dataset-type/attack.png");
@@ -961,6 +982,11 @@ a {
 .ie8 .dataset-type[data-dataset-type="accident"] {
     background-image: url("../images/dataset-type/accident.png");
 }
+.ie7 .dataset-type[data-dataset-type="accident"],
+.ie8 .dataset-type[data-dataset-type="accident"] {
+    background-image: url("../images/dataset-type/nonaccident.png");
+}
+
 
 .select2-default {
     color: #595959 !important;
@@ -988,12 +1014,12 @@ input:-moz-placeholder {
     margin: 27px 10px;
 }
 input.search-new{
-    background: url("http://www.data.gov/sites/all/themes/datagov/images/search-box-new.jpg") repeat scroll 0 0 transparent;
+    background: url("../images/search-box-new.jpg") repeat scroll 0 0 transparent;
     border:0 none;
     width:189px;
 }
 .search-box-new button{
-    background: url("http://www.data.gov/sites/all/themes/datagov/images/search_new.png") no-repeat scroll 0 0 transparent;
+    background: url("../search_new.png") no-repeat scroll 0 0 transparent;
     border: 0 none;
     color: transparent;
     font: 0px/0 a;
@@ -2136,7 +2162,8 @@ color:#2a6496;
     width: 100%;
 }
 .search-giant button {
-    background: transparent url("/../../base/images/icon-search-27x26.png") no-repeat scroll center center;
+/*  background: transparent url("/../../base/images/icon-search-27x26.png") no-repeat scroll center center; */
+    background: transparent url("../images/icon-search-27x26.png") no-repeat scroll center center;
     border: medium none;
     cursor: pointer;
     display: block;
@@ -2309,7 +2336,8 @@ margin-top: 0px;
         margin: 0 -15px;
     }
     .search-form .search-input button {
-        background: transparent url("/../../base/images/icon-search-27x26.png") no-repeat scroll center center;
+/*      background: transparent url("/../../base/images/icon-search-27x26.png") no-repeat scroll center center; */
+        background: transparent url("../images/icon-search-27x26.png") no-repeat scroll center center;
     }
     .alert-info.non-federal{
         width:90%;
